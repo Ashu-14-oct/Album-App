@@ -3,13 +3,11 @@ import React, { useState } from "react";
 export default function Album({ album, deleteAlbum, updateAlbum }) {
   const [editing, setEditing] = useState(false);
   const [updatedTitle, setUpdatedTitle] = useState(album.title);
-  // const [updatedArtist, setUpdatedArtist] = useState(album.userId);
 
   const handleUpdate = () => {
     const updatedAlbum = {
       id: album.id,
       title: updatedTitle,
-      // artist: updatedArtist,
       coverImage: album.body,
     };
 
