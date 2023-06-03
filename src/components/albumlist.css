@@ -1,0 +1,17 @@
+.album-list-container {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .album-list-title {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .album-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+  }
+  

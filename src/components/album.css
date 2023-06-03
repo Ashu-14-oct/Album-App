@@ -1,0 +1,36 @@
+.album-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+    background-color: #f5f5f5;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+    margin-bottom: 25px;
+  }
+  
+  .album-card:hover {
+    transform: scale(1.05);
+  }
+  
+  .album-card img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    /* border-radius: 50%; */
+    margin-bottom: 10px;
+  }
+  
+  .album-card h5 {
+    margin-bottom: 5px;
+  }
+  
+  .album-card p {
+    font-size: 14px;
+    color: #666;
+  }
+ 
+  
