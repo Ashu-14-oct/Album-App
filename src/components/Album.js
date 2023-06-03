@@ -29,7 +29,8 @@ export default function Album({ album, deleteAlbum, updateAlbum }) {
             placeholder="What's the update?"
             onChange={(e) => setUpdatedTitle(e.target.value)}
           />
-          <button onClick={handleUpdate}>Save</button>
+          {/* <button onClick={handleUpdate}>Save</button> */}
+          <button className="btn btn-primary m-2" onClick={handleUpdate}>save</button>
         </div>
       ) : (
         <div >
